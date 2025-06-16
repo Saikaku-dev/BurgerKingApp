@@ -13,6 +13,7 @@ struct BurgerKingAppApp: App {
         WindowGroup {
             OpeningView()
                 .environmentObject(PlayerRank.data)
+//            GameScreen()
         }
     }
 }

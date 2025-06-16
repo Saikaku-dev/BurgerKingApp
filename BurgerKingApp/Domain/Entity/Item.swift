@@ -7,3 +7,9 @@
 
 import Foundation
 
+struct Item {
+    let id: UUID
+    var imgName: String
+    var itemPosition: CGPoint
+    let itemSize: CGFloat = 30
+}
