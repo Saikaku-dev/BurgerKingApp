@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class GameViewModel:ObservableObject {
+    @Published var isGameStart: Bool = false
+}
